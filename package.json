@@ -1,0 +1,27 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "Website from Julja V.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyShcerbakov/Rest.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss"
+  ],
+  "author": "Sergey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyShcerbakov/Rest/issues"
+  },
+  "homepage": "https://github.com/SergeyShcerbakov/Rest#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
