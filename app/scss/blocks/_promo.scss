@@ -1,0 +1,38 @@
+.promo {
+    background-image: url('../imges/img/promo-welcome-bg.jpg');
+    background-repeat: no-repeat;
+    min-height: 880px;
+}
+
+.promo-title {
+    color: #ffffff;
+    font-family: 'Pt-Serif';
+    font-size: 72px;
+    max-width: 543px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 312px;
+    background-image: url('../imges/img/promo-combined-shape.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 182px;
+    margin-bottom: 40px;
+}
+
+.promo-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Roboto-light';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.promo-box-btn {
+    display: inherit;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 180px;
+    background: url('../imges/img/promo-combined-shape.svg');
+    background-repeat: no-repeat;
+}

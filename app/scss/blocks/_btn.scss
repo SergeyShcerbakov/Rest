@@ -1,0 +1,29 @@
+.btn {
+    border: 1px solid rgba(255, 255, 255, 0.2951);
+    border-radius: 3px;
+    width: 170px;
+    height: 48px;
+    padding: 12px 44px;
+
+}
+
+.promo-box-btn__link {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+        background: #6327EB;
+        border-color: #6327EB;
+    }
+}
+
+.history-btn {
+    text-decoration: none;
+    background: #6327EB;
+    border-radius: 3px;
+    width: 170px;
+    height: 48px;
+    padding: 12px 44px;
+    color: #ffffff;
+}
