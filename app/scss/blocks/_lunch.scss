@@ -1,0 +1,45 @@
+.lunch {
+    padding: 118px 0 95px;
+}
+.lunch-slogan {
+    font-size: 24px;
+    font-family: 'Roboto-light';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lunch-title {
+    font-size: 56px;
+    font-family: 'Pt-Serif';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lunch-wrapper {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.lunch-left-block {
+    border-right: 1px solid #EAEAEA;
+}
+
+.lunch-right-block {
+    margin-left: 30px;
+}
+
+.lunch-left-block__item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EAEAEA;
+    &:last-child {
+        border-bottom: none;
+    }
+    .lunch-text {
+        margin-right: 114px;
+    }
+    .lunch__price {
+        margin-right: 20px;
+        margin-top: -15px;
+    }
+}
