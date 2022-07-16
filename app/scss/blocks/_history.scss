@@ -9,27 +9,27 @@
     align-items: center;
     position: relative;
 }
-.history-dots-bg {
+
+.history__dots-img {
     position: absolute;
     top: 66px;
     left: 442px;
 }
 
-.histoty-info {
+.histoty__info {
     margin-left: 130px;
 }
 
-.history-slogan {
+.history__slogan {
     font-size: 24px;
     font-family: 'Robotolight';
 }
 
-.history-title {
-    font-size: 56px;
-    font-family: 'Pt-Serif';
+.history__title {
+    margin-bottom: 20px;
 }
 
-.history-text {
+.history__text {
     font-size: 20px;
     font-family: 'Robotolight';
     margin-bottom: 25px;
@@ -42,7 +42,7 @@
     position: absolute;
     bottom: 230px;
     left: 80px;
-    .history-radius {
+    .history__circle {
         border: 1px solid #ffffff;
         border-radius: 50%;
         width: 112px;
@@ -52,7 +52,7 @@
         margin-top: 50%;
         transform: translateY(-50%);
     }
-    .histoty-icon-fork {
+    .histoty__fork-img {
         padding: 32px 40px;
     }
 }

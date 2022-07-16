@@ -27,7 +27,6 @@ function csstodist() {
 function fontstodist() {
   return gulp
     .src('app/fonts/*.*')
-    // .pipe(cssnano())
     .pipe(gulp.dest('dist/fonts/'));
 };
 

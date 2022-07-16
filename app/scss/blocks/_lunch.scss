@@ -1,6 +1,7 @@
 .lunch {
     padding: 118px 0 95px;
 }
+
 .lunch-slogan {
     font-size: 24px;
     font-family: 'Roboto-light';
@@ -20,22 +21,22 @@
     margin-bottom: 65px;
 }
 
-.lunch-left-block {
+.lunch__left {
     border-right: 1px solid #EAEAEA;
 }
 
-.lunch-right-block {
+.lunch__right {
     margin-left: 30px;
 }
 
-.lunch-left-block__item {
+.lunch__item {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #EAEAEA;
     &:last-child {
         border-bottom: none;
     }
-    .lunch-text {
+    .lunch__text {
         margin-right: 114px;
     }
     .lunch__price {
