@@ -1,0 +1,17 @@
+.reserve {
+    background: linear-gradient(to bottom, #F9F7F2 655px, #333333 225px);
+    padding: 160px 135px; 
+}
+
+.reserve-wrapper {
+    position: relative;
+    &::after {
+        content: '';
+        width: 1400px;
+        max-height: 880px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0px;
+        left: 40;
+    }
+}
