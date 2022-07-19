@@ -2,6 +2,9 @@
 @import "blocks/container";
 @import "blocks/fonts";
 
+body {
+    overflow-x: hidden;
+}
 .section-title {
     font-size: 56px;
     font-family: 'Pt-Serif';
@@ -15,3 +18,4 @@
 @import "blocks/reviews";
 @import "blocks/about";
 @import "blocks/reserve";
+@import "blocks/footer";

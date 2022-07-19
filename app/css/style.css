@@ -76,6 +76,10 @@ table {
   src: url("../fonts/Robotolight.woff2");
   font-weight: 400;
 }
+body {
+  overflow-x: hidden;
+}
+
 .section-title {
   font-size: 56px;
   font-family: "Pt-Serif";
@@ -259,7 +263,7 @@ table {
   margin-left: 130px;
 }
 
-.history__slogan {
+.history__catagory {
   font-size: 24px;
   font-family: "Robotolight";
 }
@@ -437,18 +441,106 @@ table {
 
 .reserve {
   background: linear-gradient(to bottom, #F9F7F2 655px, #333333 225px);
-  padding: 160px 135px;
+  padding: 160px 87px 160px 135px;
+  position: relative;
+  z-index: 0;
+}
+.reserve::after {
+  content: url("../imges/img/reserve-bg-white.png");
+  width: 1400px;
+  max-height: 880px;
+  position: absolute;
+  top: -18px;
+  left: 0px;
+  z-index: -1;
 }
 
 .reserve-wrapper {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
-.reserve-wrapper::after {
-  content: "";
-  width: 1400px;
-  max-height: 880px;
-  background-color: #ffffff;
+
+.reserve-left {
+  margin-right: 62px;
+  position: relative;
+}
+
+.reserve-catagory {
+  margin-bottom: 20px;
+}
+
+.reserve-title {
+  margin-bottom: 45px;
+}
+
+form {
+  width: 538px;
+}
+
+input {
+  display: block;
+  margin-bottom: 36px;
+  width: 538px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  outline: none;
+  padding: 8px 10px;
+}
+
+select {
+  width: 538px;
+  height: 48px;
+  padding: 8px 10px;
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  outline: none;
+}
+
+.reserve-right {
+  position: relative;
+  z-index: 1;
+}
+.reserve-right::after {
+  content: url("../imges/img/square-dots.svg");
+  width: 176px;
   position: absolute;
-  top: 0px;
-  left: 40;
+  right: -49px;
+  top: -68px;
+  z-index: -1;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 90px 0 103px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Pt-Serif";
+  margin-bottom: 35px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Roboto-light";
+  font-size: 20px;
+  color: #ffffff;
 }
