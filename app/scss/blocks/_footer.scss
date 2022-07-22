@@ -1,0 +1,31 @@
+.footer {
+    background-color: #333333;
+    padding: 90px 0 103px;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Pt-Serif';
+    margin-bottom: 35px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Roboto-light';
+    font-size: 20px;
+    color: #ffffff;
+}
