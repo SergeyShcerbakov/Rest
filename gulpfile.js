@@ -58,12 +58,19 @@ function imgmin() {
     .pipe(gulp.dest("dist/imges"));
 }
 
+function libstoDest() {
+  return gulp
+    .src('app/libs/**/*.*')
+    .pipe(gulp.dest('dist/libs/'));
+};
+
 exports.default = defaultTask; // gulp
 exports.scss = buildStyles;
 exports.css = csstodist;
 exports.html = htmlInclude;
 exports.img = imgmin;
 exports.font = fontstodist;
+exports.libs = libstoDest;
 // exports.includehtml = include;
 
 exports.dev = series(
@@ -71,5 +78,6 @@ exports.dev = series(
   buildStyles,
   csstodist,
   fontstodist,
-  imgmin
+  imgmin,
+  libstoDest
 )
