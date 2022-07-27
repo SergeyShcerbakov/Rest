@@ -10,6 +10,11 @@ body {
     font-family: 'Pt-Serif';
 }
 
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden; 
+    }
+}
 @import "blocks/btn";
 @import "blocks/header";
 @import "blocks/promo";

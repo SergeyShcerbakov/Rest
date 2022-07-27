@@ -42,5 +42,41 @@
     .lunch__price {
         margin-right: 20px;
         margin-top: -15px;
+        font-size: 20px;
+    }
+    .lunch__text {
+        margin-right: 0;
+    }
+}
+
+// Mobile
+
+@media (max-width: 1024px) {
+    .lunch__desc-title {
+        font-size: 20px;
+    }
+
+    .lunch__desc {
+        font-size: 14px;
+    }
+
+    .lunch__img {
+        width: 112px;
+        height: 112px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lunch-wrapper {
+        flex-direction: column;
+    }
+    .lunch__item {
+        justify-content: space-between;    
+    }
+    .lunch__left {
+        border: none;
+    }
+    .lunch__right {
+        margin-left: 0;
     }
 }

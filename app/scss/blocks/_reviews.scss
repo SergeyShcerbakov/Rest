@@ -20,8 +20,6 @@
 .slider {
     height: 545px;
     background: #fff;
-    // padding: 65px 32px 70px 32px;
-    // position: relative;
 }
 
 .slider-wrapper {
@@ -40,6 +38,7 @@
     }
     
 }
+
 .block__img-slide {
     margin: 0 auto;
     margin-bottom: 40px;
@@ -102,3 +101,36 @@ button.slick-next {
         height: 8px;
     }
 }
+
+//mobile
+
+@media(max-width: 1024px) {
+    .slider__desc {
+      width: 580px;
+    }
+    
+    .slider-wrapper .block__img:after {
+      margin-left: 340px;
+    } 
+  
+    button.slick-next {
+        left: 664px;
+    }
+  
+    button.slick-prev {
+      left: 15px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .reviews {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .slider__desc {
+        width: 465px;
+    }
+    button.slick-next {
+        left: 620px;
+    }
+  }

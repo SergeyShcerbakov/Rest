@@ -75,3 +75,47 @@ select {
         z-index: -1;
     }
 }
+
+//mobile
+
+@media (max-width: 1024px) {
+    .reserve {
+        &::after {
+            content: '';
+            width: 970px;
+        }
+    }
+
+    form {
+        width: 310px;
+    }
+
+    input {
+        width: 310px;
+    }
+
+    select {
+        width: 310px;
+    }
+
+    .reserve-right:after {
+        right: 11px;
+    }
+
+    img.reserve__img {
+        width: 473px;
+    }
+}
+
+@media (max-width: 768px) {
+    .reserve {
+        padding-top: 110px;
+        padding-bottom: 73px;
+    }
+    .reserve-wrapper {
+        flex-direction: column;
+    }
+    .reserve__img {
+        width: 100%;
+    }
+}

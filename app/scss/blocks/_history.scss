@@ -76,14 +76,39 @@
 
 // mobile
 
-// @media (max-width: 1440px) {
-//     .history-icon {
-//         right: 1182px;
-//     }
-// }
+@media (max-width: 1024px) {
+    .history {
+          padding: 160px 75px;
+    }
 
-// @media (max-width: 1263px) {
-//     .history-icon {
-//         right: 980px;
-//     }
-// }
+    .history__img {
+        width: 427px;
+        height: 560px;
+    }
+
+    .history__left {
+        &::after {
+            left: 294px;
+            bottom: 195px;
+        }
+    }
+
+    .history__icon {
+        left: 27px;
+    }
+}
+
+@media (max-width: 768px) {
+    .history__img {
+        width: 345px;
+    }
+
+    .history__left:after {
+        left: 186px;
+        bottom: 322px;
+    }
+
+    .history__right {
+        margin-left: 30px;
+    }
+}

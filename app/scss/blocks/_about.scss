@@ -64,3 +64,25 @@
     padding-bottom: 57px;
   }
 }
+
+//mobile
+
+@media (max-width: 1024px) {
+  .about__box {
+    width: 310px;
+  }
+}
+
+@media(max-width: 768px) {
+  .about__box {
+    width: 223px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .about__img {
+      width: 193px;
+    }
+    &__subtitle {
+      font-size: 17px;
+    }
+  }
+}

@@ -44,3 +44,11 @@
     font-size: 18px;
     padding: 12px;
 }
+
+// mobile
+
+@media(max-width: 768px) {
+    .btn--reserve {
+        margin-bottom: 90px;
+    }
+}
