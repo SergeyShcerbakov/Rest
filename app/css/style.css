@@ -400,11 +400,15 @@ body {
 }
 .lunch__item .lunch__text {
   margin-right: 114px;
+  width: calc(100% - 112px - 100px - 50px);
+  flex-shrink: 0;
 }
 .lunch__item .lunch__price {
   margin-right: 20px;
   margin-top: -15px;
   font-size: 20px;
+  width: 100px;
+  text-align: right;
 }
 .lunch__item .lunch__text {
   margin-right: 0;
@@ -657,19 +661,21 @@ button.slick-next:before {
   z-index: 0;
 }
 .reserve::after {
-  content: url("../imges/img/reserve-bg-white.png");
-  width: 1400px;
-  max-height: 880px;
+  content: "";
   position: absolute;
-  top: -18px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: calc(100% - 40px);
   z-index: -1;
+  background-color: #ffffff;
 }
 
 .reserve-wrapper {
   position: relative;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .reserve-left {
@@ -729,8 +735,7 @@ select {
 
 @media (max-width: 1024px) {
   .reserve::after {
-    content: "";
-    width: 970px;
+    width: calc(100% - 27px);
   }
   form {
     width: 310px;

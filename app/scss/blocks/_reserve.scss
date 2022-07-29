@@ -4,13 +4,14 @@
     position: relative;
     z-index: 0;
     &::after {
-        content: url('../imges/img/reserve-bg-white.png');
-        width: 1400px;
-        max-height: 880px;
+        content: '';
         position: absolute;
-        top: -18px;
-        left: 0px;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: calc(100% - 40px);
         z-index: -1;
+        background-color: #ffffff;
     }
 }
 
@@ -18,6 +19,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 
 .reserve-left {
@@ -81,8 +83,7 @@ select {
 @media (max-width: 1024px) {
     .reserve {
         &::after {
-            content: '';
-            width: 970px;
+            width: calc(100% - 27px);
         }
     }
 

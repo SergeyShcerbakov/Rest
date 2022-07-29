@@ -38,18 +38,22 @@
     }
     .lunch__text {
         margin-right: 114px;
+        width: calc(100% - 112px - 100px - 50px);
+        flex-shrink: 0;
     }
     .lunch__price {
         margin-right: 20px;
         margin-top: -15px;
         font-size: 20px;
+        width: 100px;
+        text-align: right;
     }
     .lunch__text {
         margin-right: 0;
     }
 }
 
-// Mobile
+// mobile
 
 @media (max-width: 1024px) {
     .lunch__desc-title {
