@@ -53,10 +53,23 @@
     }
 }
 
+.mobile-img {
+    display: none;
+}
+
 //mobile
 
 @media (max-width: 768px) {
     .promo__wrapp:before {
         right: 97px;
+    }
+}
+
+@media (max-width: 375px) {
+    .promo {
+        padding: 117px 0 130px; 
+    }
+    .mobile-img {
+        display: block;
     }
 }
