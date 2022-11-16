@@ -137,6 +137,58 @@ body {
   padding: 12px;
 }
 
+button.slick-prev {
+  left: 100px !important;
+}
+
+button.slick-next {
+  left: 990px !important;
+}
+
+@media (max-width: 1400px) {
+  button.slick-prev {
+    left: 70px !important;
+  }
+}
+@media (max-width: 1350px) {
+  button.slick-next {
+    left: 930px !important;
+  }
+}
+@media (max-width: 1320px) {
+  button.slick-prev {
+    left: 45px !important;
+  }
+}
+@media (max-width: 1300px) {
+  button.slick-next {
+    left: 910px !important;
+  }
+}
+@media (max-width: 1270px) {
+  button.slick-next {
+    left: 875px !important;
+  }
+}
+@media (max-width: 1225px) {
+  button.slick-prev {
+    left: 10px !important;
+  }
+  button.slick-next {
+    left: 865px !important;
+  }
+}
+@media (max-width: 1215px) {
+  .slider__desc {
+    max-width: 530px;
+  }
+  button.slick-prev {
+    left: 76px !important;
+  }
+  button.slick-next {
+    left: 775px !important;
+  }
+}
 @media (max-width: 768px) {
   .btn--reserve {
     margin-bottom: 90px;
@@ -252,9 +304,18 @@ body {
   bottom: 30px;
 }
 
+.mobile-img {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .promo__wrapp:before {
     right: 97px;
+  }
+}
+@media (max-width: 376px) {
+  .promo {
+    padding: 117px 0 0;
   }
 }
 .history {
@@ -357,6 +418,24 @@ body {
   }
   .history__right {
     margin-left: 30px;
+  }
+}
+@media (max-width: 376px) {
+  .history-wrapper {
+    flex-direction: column;
+  }
+  .history__img {
+    height: auto;
+  }
+  .history {
+    padding: 160px 5px;
+  }
+  .history__icon {
+    bottom: 56%;
+    left: 4px;
+  }
+  .history__left {
+    margin-bottom: 60px;
   }
 }
 .lunch {
@@ -543,6 +622,11 @@ button.slick-next:before {
   height: 8px;
 }
 
+@media (max-width: 1215px) {
+  .slider__desc {
+    width: 580px;
+  }
+}
 @media (max-width: 1024px) {
   .slider__desc {
     width: 580px;
@@ -567,6 +651,17 @@ button.slick-next:before {
   }
   button.slick-next {
     left: 620px;
+  }
+}
+@media (max-width: 376px) {
+  .reviews-title {
+    font-size: 40px;
+  }
+  .slider__desc {
+    width: 255px;
+  }
+  .slick-list.draggable {
+    background-color: #fff;
   }
 }
 .about {

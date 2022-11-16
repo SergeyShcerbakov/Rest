@@ -56,7 +56,6 @@
 .mobile-img {
     display: none;
 }
-
 //mobile
 
 @media (max-width: 768px) {
@@ -65,11 +64,16 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .promo {
-        padding: 117px 0 130px; 
+        padding: 117px 0 0; 
     }
-    .mobile-img {
-        display: block;
-    }
+    // .promo-block {
+    //     height: 105px;
+    // }
+    // .mobile-img {
+    //     display: block;
+    //     margin-top: -26%;
+    //     margin-left: 25%;
+    // }
 }

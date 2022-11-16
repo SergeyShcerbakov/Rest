@@ -30,17 +30,17 @@ function fontstodist() {
     .pipe(gulp.dest('dist/fonts/'));
 };
 
-function htmlInclude() {
-  return gulp
-    .src("app/*.html")
-    .pipe(
-      fileinclude({
-        prefix: "@@",
-        basepath: "@file",
-      })
-    )
-    .pipe(gulp.dest("dist"));
-}
+  function htmlInclude() {
+    return gulp
+      .src("app/*.html")
+      .pipe(
+        fileinclude({
+          prefix: "@@",
+          basepath: "@file",
+        })
+      )
+      .pipe(gulp.dest("dist"));
+  }
 
 function imgmin() {
   return gulp

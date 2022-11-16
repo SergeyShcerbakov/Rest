@@ -104,6 +104,12 @@ button.slick-next {
 
 //mobile
 
+@media (max-width: 1215px) {
+    .slider__desc {
+        width: 580px;
+      }
+}
+
 @media(max-width: 1024px) {
     .slider__desc {
       width: 580px;
@@ -132,5 +138,17 @@ button.slick-next {
     }
     button.slick-next {
         left: 620px;
+    }
+  }
+
+  @media (max-width: 376px) {
+    .reviews-title {
+        font-size: 40px;
+    }
+    .slider__desc {
+        width: 255px;
+    }
+    .slick-list.draggable {
+        background-color: #fff;
     }
   }

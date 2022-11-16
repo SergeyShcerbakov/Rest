@@ -112,3 +112,23 @@
         margin-left: 30px;
     }
 }
+
+@media (max-width: 376px) {
+    .history-wrapper {
+        flex-direction: column;
+    }
+    .history__img {
+        height: auto;
+    }
+    .history {
+        padding: 160px 5px;
+    }
+    .history__icon {
+        bottom: 56%;
+        left: 4px;
+    }
+    .history__left {
+        margin-bottom: 60px;
+    }
+
+}
